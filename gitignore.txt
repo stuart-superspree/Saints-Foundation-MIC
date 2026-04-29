@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build artefacts (none expected, but defensive)
+node_modules/
+dist/
+build/
+*.log
+
+# Don't commit version variants — only index.html ships
+mitc-companion-v*.html
+
+# Railway local dev
+.railway/
+
+# Local env (none used currently)
+.env
+.env.local
